@@ -9,18 +9,18 @@ pipeline {
 
     parameters {
         string( name: 'NOTIFICATION_EMAIL',
-                defaultValue:  'Marc.McComb@microchip.com, 
-                                Mamun.Ahmed@microchip.com,
-                                stephen.cowden@microchip.com,
-                                michael.pearce@microchip.com,
-                                Vinaya.Skanda@Microchip.com,
-                                Johan.Lofstad@microchip.com,
-                                Espen.Krangnes@microchip.com,
-                                Catalina.Costin@microchip.com,
-                                Namrata.Dalvi@microchip.com,
-                                Martin.Thomaz@microchip.com,
-                                Marius.Nicolae@microchip.com,
-                                shaima.husain@microchip.com,
+                defaultValue:  'Marc.McComb@microchip.com, \
+                                Mamun.Ahmed@microchip.com, \
+                                stephen.cowden@microchip.com, \
+                                michael.pearce@microchip.com, \
+                                Vinaya.Skanda@Microchip.com, \
+                                Johan.Lofstad@microchip.com, \
+                                Espen.Krangnes@microchip.com, \
+                                Catalina.Costin@microchip.com, \
+                                Namrata.Dalvi@microchip.com, \
+                                Martin.Thomaz@microchip.com, \
+                                Marius.Nicolae@microchip.com, \
+                                shaima.husain@microchip.com, \
                                 prasad.aradhya@microchip.com',
                 description: "Email to send build failure and fixed notifications.")
     }
