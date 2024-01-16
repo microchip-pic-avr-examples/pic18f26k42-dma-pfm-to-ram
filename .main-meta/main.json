@@ -24,7 +24,7 @@
         },
         "configurator": {
             "name": "MCC",
-            "semverRange": "3.75.0"
+            "semverRange": ">=3.75.0"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -32,7 +32,7 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "pic18f26k42",
+                "name": "PIC18F26K42",
                 "versionRange": "*"
             }
         },
